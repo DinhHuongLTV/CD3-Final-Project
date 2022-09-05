@@ -1,0 +1,32 @@
+.sign-btn {
+    float: right;
+}
+
+.infor {
+    background-color: #0673EC;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+label {
+    font-weight: bold;
+}
+
+#form-heading,
+#form-desc {
+    text-align: center;
+}
+
+.my-form {
+    margin: 0 auto;
+}
+
+.form-container {
+    background-color: white;
+}
+
+.large-container {
+    background-color: #EFF1F5;
+}

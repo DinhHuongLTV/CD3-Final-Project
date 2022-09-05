@@ -1,0 +1,143 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.main-container {
+    position: relative;
+}
+
+.link {
+    text-decoration: none;
+
+}
+
+.blank {
+    height: 30px;
+}
+
+.user-account {
+    background-color: #EEF1F3;
+}
+
+.sign-btn {
+    float: right;
+}
+
+.user-icon {
+    font-size: 24px;
+    float: right;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 0;
+}
+
+div[class*="col"] {
+    position: relative;
+}
+
+.dropdown {
+    display: flex;
+    justify-content: space-between;
+}
+
+.dropdown-item {
+    list-style: none;
+    position: relative;
+}
+
+.dropdown-list {
+    background-color: #EEF1F3;
+    position: absolute;
+    width: 94%;
+    display: none;
+}
+
+.shown {
+    display: block;
+}
+
+#sub-header {
+    background-image: linear-gradient(to right, #1D81EE, #684CC5);
+    color: white;
+}
+
+#section-navbar {
+    background-color: #FFFFFF;
+    position: sticky;
+}
+
+.logo {
+    font-size: 32px;
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.link-list {
+    display: inline-block;
+}
+
+.list-item {
+    display: inline-block;
+    list-style: none;
+}
+
+#about {
+    background-color: #192027;
+    color: #999999
+}
+
+#about i {
+    width: 20px;
+}
+
+#about h3 {
+    color: white;
+}
+
+#about .view {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-img {
+    background: url(../img/facebook-page.png) center center / cover no-repeat;
+    width: 100%;
+    height: 0;
+    padding-top: 50%;
+}
+
+.about-logo {
+    width: 36px;
+    height: 36px;
+    border-radius: 50px;
+}
+
+#footer {
+    background-color: #262B30;
+    text-align: center;
+}
+
+#footer p {
+    color: #999999;
+}
+
+.footer-link {
+    color: white;
+}
+
+@media (max-width: 577px) {
+    .header {
+        display: none !important;
+    }
+}
+
+@media (min-width: 578px) {
+    .mobile_header {
+        display: none !important;
+    }
+}
