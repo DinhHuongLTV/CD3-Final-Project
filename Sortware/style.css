@@ -76,7 +76,7 @@
 }
 
 /* ! Modal */
-#modal {
+.modal {
     position: fixed;
     top: 0;
     left: 0;
@@ -88,6 +88,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
+
+    display: none;
+}
+
+.shown {
+    display: flex;
 }
 
 .modal-container {
@@ -113,9 +119,25 @@
     background-color: #747B86;
 }
 
-#endnote .modal-img {
+/* !endnote */
+.endnote .modal-img {
     background: url(../Sortware/EndNote-modal.jpg) center center / cover no-repeat;
 }
+
+.bandicam .modal-img {
+    background: url(../Sortware/EndNote-modal.jpg) center center / cover no-repeat;
+}
+
+.affinity .modal-img {
+    background: url(../Sortware/EndNote-modal.jpg) center center / cover no-repeat;
+}
+
+.edraw .modal-img {
+    background: url(../Sortware/EndNote-modal.jpg) center center / cover no-repeat;
+}
+
+/* !bandicam */
+
 
 
 div[class*="modal-activator"]:hover,
