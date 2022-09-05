@@ -124,19 +124,40 @@
     background: url(../Sortware/EndNote-modal.jpg) center center / cover no-repeat;
 }
 
-.bandicam .modal-img {
-    background: url(../Sortware/EndNote-modal.jpg) center center / cover no-repeat;
-}
-
-.affinity .modal-img {
-    background: url(../Sortware/EndNote-modal.jpg) center center / cover no-repeat;
-}
-
-.edraw .modal-img {
-    background: url(../Sortware/EndNote-modal.jpg) center center / cover no-repeat;
-}
-
 /* !bandicam */
+.bandicam .modal-img {
+    background: url(../Sortware/bandicam-modal.jpg) center center / cover no-repeat;
+}
+
+/* !affinity */
+.affinity .modal-img {
+    background: url(../Sortware/affinity-modal.jpg) center center / cover no-repeat;
+}
+
+/* !Edraw */
+.edraw .modal-img {
+    background: url(../Sortware/edraw-modal.jpg) center center / cover no-repeat;
+}
+
+/* !Sublime text */
+.sublime .modal-img {
+    background: url(../Sortware/sublime-modal.jpg) center center / cover no-repeat;
+}
+
+/* !Fxsound */
+.fxsound .modal-img {
+    background: url(../Sortware/fxsound-modal.jpg) center center / cover no-repeat;
+}
+
+/* !CCleaner */
+.cleaner .modal-img {
+    background: url(../Sortware/cleaner-modal.jpg) center center / cover no-repeat;
+}
+
+/* !proteus */
+.proteus .modal-img {
+    background: url(../Sortware/proteus-modal.jpg) center center / cover no-repeat;
+}
 
 
 
