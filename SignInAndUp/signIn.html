@@ -43,7 +43,7 @@
                             <a href="../Sortware/page1.html" class="list-link nav-link">Phan Mem</a>
                         </li>
                         <li class="list-item nav-item p-2 mx-1">
-                            <a href="#" class="list-link nav-link">Game</a>
+                            <a href="../Game/page1.html" class="list-link nav-link">Game</a>
                         </li>
                         <li class="list-item nav-item p-2 mx-1">
                             <a href="#" class="list-link nav-link">
@@ -59,11 +59,11 @@
                     <div class="container py-2">
                         <div class="row justify-content-between">
                             <div class="col-1">
-                                <h1 class="logo">LinkNeverDie</h1>
+                                <h1><a href="./index.html" class="navbar-brand">LinkNeverDie</a></h1>
                             </div>
 
                             <div class="col-3 infor">
-                                đăng nhập
+                                Đăng nhập
                             </div>
                         </div>
                     </div>
@@ -105,20 +105,22 @@
                     <hr>
 
                     <div class="px-5">
-                        <form action="../index.html">
+                        <form action="../index.html" id="form">
                             <div class="mb-3 my-5">
-                                <label for="name">Tên đăng nhập:</label>
-                                <input type="text" class="form-control mt-2" placeholder="Nhập username bạn đã đăng ký">
+                                <label for="username">Tên đăng nhập:</label>
+                                <input id="username" type="text" class="form-control mt-2"
+                                    placeholder="Nhập username bạn đã đăng ký">
                             </div>
                             <div class="mb-3 my-5">
-                                <label for="email">Mật khẩu:</label>
-                                <input type="email" class="form-control mt-2" placeholder="Nhập mật khẩu">
+                                <label for="password">Mật khẩu:</label>
+                                <input id="password" type="password" class="form-control mt-2"
+                                    placeholder="Nhập mật khẩu">
                             </div>
                             <div class="my-3">
                                 <input type="checkbox" id="remember"> <label for="remember">Ghi nhớ đăng nhập</label>
                             </div>
 
-                            <button type="submit" class="btn btn-primary mb-3">Đăng nhập</button>
+                            <button type="submit" class="btn btn-primary mb-3 submit-btn">Đăng nhập</button>
                         </form>
                         <div class="row">
                             <div class="py-3 col-6">
@@ -193,6 +195,8 @@
     </div>
     <script src="../js/bootstrap.js"></script>
     <script src="../js/main.js"></script>
+    <script src="../userdata.js"></script>
+    <!-- <script src="main.js"></script> -->
 </body>
 
 </html>

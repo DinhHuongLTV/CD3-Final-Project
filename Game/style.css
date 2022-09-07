@@ -1,0 +1,64 @@
+.halo-img {
+    background: url(./halo.jpg) center center / cover no-repeat;
+}
+
+.tokyo-img {
+    background: url(./tokyo.jpg) center center / cover no-repeat;
+}
+
+.dyinglight-img {
+    background: url(./dyinglight.jpg) center center / cover no-repeat;
+}
+
+.bright-img {
+    background: url(./bright.jpg) center center / cover no-repeat;
+}
+
+.vrising-img {
+    background: url(./vrising.jpg) center center / cover no-repeat;
+}
+
+.deadcell-img {
+    background: url(./deadcell.jpg) center center / cover no-repeat;
+}
+
+.olympic-img {
+    background: url(./olympic.jpg) center center / cover no-repeat;
+}
+
+.halflife-img {
+    background: url(./halflife.jpg) center center / cover no-repeat;
+}
+
+/* !modal img */
+.halo .modal-img {
+    background: url(./halo-modal.jpg) center center / cover no-repeat;
+}
+
+.deadcell .modal-img {
+    background: url(./deadcell-modal.jpg) center center / cover no-repeat;
+}
+
+.bright .modal-img {
+    background: url(./bright-modal.jpg) center center / cover no-repeat;
+}
+
+.dyinglight .modal-img {
+    background: url(./dyinglight-modal.jpg) center center / cover no-repeat;
+}
+
+.vrising .modal-img {
+    background: url(./vrising-modal.jpg) center center / cover no-repeat;
+}
+
+.olympic .modal-img {
+    background: url(./olympic-modal.jpg) center center / cover no-repeat;
+}
+
+.tokyo .modal-img {
+    background: url(./tokyo-modal.jpg) center center / cover no-repeat;
+}
+
+.halflife .modal-img {
+    background: url(./halflife-modal.jpg) center center / cover no-repeat;
+}
