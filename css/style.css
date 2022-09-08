@@ -7,6 +7,10 @@
     position: relative;
 }
 
+.container {
+    position: relative;
+}
+
 .link {
     text-decoration: none;
 }
@@ -190,8 +194,6 @@ div[class*="col"] {
     bottom: 0;
     background-color: rgba(29, 129, 238, 0.3);
 
-    z-index: 99;
-    display: flex;
     justify-content: center;
     align-items: center;
 
@@ -205,24 +207,37 @@ div[class*="col"] {
 .modal-container {
     position: relative;
     background-color: white;
+    max-height: 80vh;
+    overflow: scroll;
 }
 
 .modal-container .close-modal {
     position: absolute;
-    top: 0;
     right: 0;
+    top: 0;
+    z-index: 2;
 }
 
 .modal-container .modal-header {
-    background-color: #1D81EE;
     display: flex;
     justify-content: center;
+
+    background-color: #1D81EE;
+    z-index: 1;
 }
 
 .modal-container .modal-img {
     height: 0;
     padding-top: 30%;
     background-color: #747B86;
+}
+
+.modal-img-top {
+    background-position: top center !important;
+}
+
+.modal-img-left {
+    background-position: top left !important;
 }
 
 div[class*="modal-activator"]:hover,
@@ -233,6 +248,10 @@ h5[class*="modal-activator"]:hover {
 @media (max-width: 577px) {
     .header {
         display: none !important;
+    }
+
+    .modal-container {
+        margin: 0 8px;
     }
 }
 
